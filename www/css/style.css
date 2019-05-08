@@ -17,6 +17,7 @@ body{
 .rind{
   margin-top: 5px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .rscan{
@@ -31,4 +32,11 @@ body{
 
 .imgProd{
   width: 98%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#imgindex{
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

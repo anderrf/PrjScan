@@ -23,6 +23,10 @@ function encaminhar(resultado){
       location.href = "scan1.html";
     break;
 
+    case 989895555:
+      location.href = "scan2.html";
+    break;
+
     default:
       alert("Código de barra inválido.");
     break;
