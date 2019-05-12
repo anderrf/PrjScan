@@ -14,6 +14,15 @@ body{
   padding-bottom: 20px;
 }
 
+@font-face{
+  font-family: "dotty";
+  src: url("fonts/dotty/dotty.ttf") format("truetype");
+}
+
+h1{
+  font-family: dotty;
+}
+
 .rind{
   margin-top: 5px;
   margin-bottom: 10px;
@@ -28,6 +37,13 @@ body{
 .pdesc{
   font-size: 18px;
   text-align: justify;
+  font-family: verdana;
+}
+
+ul>li{
+  font-size: 16px;
+  text-align: justify;
+  font-family: verdana;
 }
 
 .imgProd{
