@@ -6,21 +6,26 @@ body{
 
 .container{
   width: 95%;
+  height: 350px;
   background-color: whitesmoke;
   border-radius: 5px 5px 5px 5px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 5px;
   padding-bottom: 20px;
+  position: absolute;
+top: 0; bottom: 0;
+left: 0; right: 0;
+margin: auto;
 }
 
 @font-face{
-  font-family: "dotty";
-  src: url("fonts/dotty/dotty.ttf") format("truetype");
+  font-family: "zebrra";
+  src: url("../fonts/ZEBRRA__.ttf") format("truetype");
 }
 
 h1{
-  font-family: dotty;
+  font-family: zebrra;
 }
 
 .rind{
